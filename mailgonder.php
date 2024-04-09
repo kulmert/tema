@@ -22,7 +22,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
 $mail->Username = "website@tgg.com.tr"; 
-$mail->Password = "Tgg1034!!"; 
+$mail->Password = "*******"; 
 
 $mail->SetFrom($mail->Username, 'TGG Web Stesi');
 $mail->AddAddress('kulmert@gmail.com', '
